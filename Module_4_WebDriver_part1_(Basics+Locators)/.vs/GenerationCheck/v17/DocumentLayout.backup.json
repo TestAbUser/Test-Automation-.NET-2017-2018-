@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part1_(Basics\u002BLocators)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|c:\\users\\isaru\\source\\repos\\test automation (.net) (2017)\\module_4_webdriver_part1_(basics\u002Blocators)\\generationcheck\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|solutionrelative:generationcheck\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|c:\\users\\isaru\\source\\repos\\test automation (.net) (2017)\\module_4_webdriver_part1_(basics\u002Blocators)\\generationcheck\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|solutionrelative:generationcheck\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part1_(Basics\u002BLocators)\\GenerationCheck\\Test.cs",
+              "RelativeDocumentMoniker": "GenerationCheck\\Test.cs",
+              "ToolTip": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part1_(Basics\u002BLocators)\\GenerationCheck\\Test.cs",
+              "RelativeToolTip": "GenerationCheck\\Test.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:40:14.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part1_(Basics\u002BLocators)\\GenerationCheck\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "GenerationCheck\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part1_(Basics\u002BLocators)\\GenerationCheck\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "GenerationCheck\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:40:00.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

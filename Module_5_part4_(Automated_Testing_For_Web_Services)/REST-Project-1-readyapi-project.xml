@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="d39ad8fa-09c8-46a6-a66a-5a4355724516" created="2.4.0" activeEnvironment="Default environment" name="REST Project 1" resourceRoot="" updated="2.4.0 2018-06-08T12:50:23Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:interface xsi:type="con:RestService" id="1960a789-d9bd-49ef-9333-696fec1ff943" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://geoip.top" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <con:settings/>
+    <con:definitionCache type="TEXT" rootPart=""/>
+    <con:endpoints>
+      <con:endpoint>http://geoip.elib.ru/cgi-bin/getdata.pl?ip=87.255.23.236&amp;sid=1A2B3C4D</con:endpoint>
+    </con:endpoints>
+    <con:resource name="" path="/cgi-bin/getdata.pl" id="1597223c-60d7-449c-a9eb-9e0b679bd047">
+      <con:settings/>
+      <con:parameters>
+        <con:parameter required="true">
+          <con:name>sid</con:name>
+          <con:value/>
+          <con:style>QUERY</con:style>
+          <con:default/>
+          <con:description xsi:nil="true"/>
+        </con:parameter>
+        <con:parameter required="true">
+          <con:name>ip</con:name>
+          <con:value/>
+          <con:style>QUERY</con:style>
+          <con:default/>
+          <con:description xsi:nil="true"/>
+        </con:parameter>
+      </con:parameters>
+      <con:method name="" id="c70a45df-aaf8-442e-99d6-489418716f36" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="RESPONSE">
+          <con:mediaType>text/xml</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+          <con:element>GeoIP</con:element>
+        </con:representation>
+        <con:request name="Request 1" id="e624c26e-bba4-463c-b707-8eeadedc0569" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            <con:setting id="RecordRequestRepresentations">true</con:setting>
+          </con:settings>
+          <con:encoding>UTF-8</con:encoding>
+          <con:endpoint>http://geoip.elib.ru</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://geoip.elib.ru/cgi-bin/getdata.pl/</con:originalUri>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters>
+            <con:entry key="ip" value="80.72.118.10"/>
+            <con:entry key="sid" value="1693QG8F"/>
+          </con:parameters>
+          <con:parameterOrder>
+            <con:entry>sid</con:entry>
+            <con:entry>ip</con:entry>
+          </con:parameterOrder>
+        </con:request>
+        <con:request name="Request 2" id="1fe77a42-e087-44e1-ab83-7604c5684b0e" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:encoding>UTF-8</con:encoding>
+          <con:endpoint>http://geoip.elib.ru</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://geoip.elib.ru/cgi-bin/getdata.pl/cgi-bin/getdata.pl</con:originalUri>
+          <con:credentials>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters>
+            <entry key="sid" value="1693QG8F" xmlns="http://eviware.com/soapui/config"/>
+          </con:parameters>
+          <con:parameterOrder>
+            <con:entry>sid</con:entry>
+            <con:entry>ip</con:entry>
+          </con:parameterOrder>
+        </con:request>
+        <con:request name="Request 3" id="1fe77a42-e087-44e1-ab83-7604c5684b0e" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:encoding>UTF-8</con:encoding>
+          <con:endpoint>http://geoip.elib.ru</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://geoip.elib.ru/cgi-bin/getdata.pl/cgi-bin/getdata.pl</con:originalUri>
+          <con:credentials>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters>
+            <con:entry key="ip" value="80.252.23.237, 80.253.23.237, 213.252.105.59, 5.143.192.0.8"/>
+            <con:entry key="sid" value="1693QG8F"/>
+          </con:parameters>
+          <con:parameterOrder>
+            <con:entry>sid</con:entry>
+            <con:entry>ip</con:entry>
+          </con:parameterOrder>
+        </con:request>
+        <con:request name="Request 4" id="e624c26e-bba4-463c-b707-8eeadedc0569" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            <con:setting id="RecordRequestRepresentations">true</con:setting>
+          </con:settings>
+          <con:encoding>UTF-8</con:encoding>
+          <con:endpoint>http://geoip.elib.ru</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://geoip.elib.ru/cgi-bin/getdata.pl/</con:originalUri>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters>
+            <con:entry key="ip" value="80.72.118"/>
+            <con:entry key="sid" value="1693QG8F"/>
+          </con:parameters>
+          <con:parameterOrder>
+            <con:entry>sid</con:entry>
+            <con:entry>ip</con:entry>
+          </con:parameterOrder>
+        </con:request>
+        <con:request name="Request 5" id="e624c26e-bba4-463c-b707-8eeadedc0569" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            <con:setting id="RecordRequestRepresentations">true</con:setting>
+          </con:settings>
+          <con:encoding>UTF-8</con:encoding>
+          <con:endpoint>http://geoip.elib.ru</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://geoip.elib.ru/cgi-bin/getdata.pl/</con:originalUri>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters>
+            <con:entry key="ip" value="80.72.118.10"/>
+            <con:entry key="sid" value="1693QG8F"/>
+          </con:parameters>
+          <con:parameterOrder>
+            <con:entry>sid</con:entry>
+            <con:entry>ip</con:entry>
+          </con:parameterOrder>
+        </con:request>
+      </con:method>
+    </con:resource>
+  </con:interface>
+  <con:testSuite id="a9d40171-6ee9-4f59-af94-d7497bd2b376" name="TestSuite 1">
+    <con:settings/>
+    <con:savedRecentRuns>1</con:savedRecentRuns>
+    <con:runType>SEQUENTIAL</con:runType>
+    <con:testCase id="2c7eb075-7a31-4133-9867-b9b26a94d0a2" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0">
+      <con:settings/>
+      <con:savedRecentRuns>1</con:savedRecentRuns>
+      <con:testStep type="restrequest" name="a) The status code of response is 200 (OK)." id="53972efe-dc73-41b2-87f1-a19b040b6465">
+        <con:settings/>
+        <con:config service="https://geoip.top" resourcePath="/cgi-bin/getdata.pl" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="a) The status code of response is 200 (OK)." id="e624c26e-bba4-463c-b707-8eeadedc0569" mediaType="application/json">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+              <con:setting id="RecordRequestRepresentations">true</con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>http://geoip.elib.ru/cgi-bin/getdata.pl?isid=1693QG8F</con:endpoint>
+            <con:request/>
+            <con:originalUri>http://geoip.elib.ru/cgi-bin/getdata.pl/</con:originalUri>
+            <con:assertion type="Valid HTTP Status Codes" id="81817452-603f-4f17-a71e-65cffcb3c445" name="Valid HTTP Status Codes">
+              <con:settings/>
+              <con:configuration>
+                <codes>200</codes>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters>
+              <con:entry key="ip" value="80.72.118.10"/>
+              <con:entry key="sid" value="1693QG8F"/>
+            </con:parameters>
+            <con:parameterOrder>
+              <con:entry>sid</con:entry>
+              <con:entry>ip</con:entry>
+            </con:parameterOrder>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="restrequest" name="b) The correct content of responses for different ip addresses will be returned." id="e42c4c8c-c9b1-42c0-8125-f1b2102deaa9">
+        <con:settings/>
+        <con:config service="https://geoip.top" resourcePath="/cgi-bin/getdata.pl" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="b) The correct content of responses for different ip addresses will be returned." id="1fe77a42-e087-44e1-ab83-7604c5684b0e" mediaType="application/json">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>http://geoip.elib.ru</con:endpoint>
+            <con:request/>
+            <con:originalUri>http://geoip.elib.ru/cgi-bin/getdata.pl/cgi-bin/getdata.pl</con:originalUri>
+            <con:assertion type="XPath Match" id="60419c77-1c50-4173-9f45-9379d76172e6" name="XPath Match">
+              <con:configuration>
+                <path>//GeoIP[1]/GeoAddr[1]/Town[1]</path>
+                <content>Рязань</content>
+                <allowWildcards>false</allowWildcards>
+                <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+                <ignoreComments>false</ignoreComments>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters>
+              <con:entry key="ip" value="80.72.118.10, 80.255.23.236, 80.252.23.236"/>
+              <con:entry key="sid" value="1693QG8F"/>
+            </con:parameters>
+            <con:parameterOrder>
+              <con:entry>sid</con:entry>
+              <con:entry>ip</con:entry>
+            </con:parameterOrder>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="restrequest" name="c) Check, that for ip address from the same Town, the responces is the same" id="edede7ab-6ee6-408d-9dda-721058bff13c">
+        <con:settings/>
+        <con:config service="https://geoip.top" resourcePath="/cgi-bin/getdata.pl" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="c) Check, that for ip address from the same Town, the responces is the same" id="1fe77a42-e087-44e1-ab83-7604c5684b0e" mediaType="application/json">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>http://geoip.elib.ru</con:endpoint>
+            <con:request/>
+            <con:originalUri>http://geoip.elib.ru/cgi-bin/getdata.pl/cgi-bin/getdata.pl</con:originalUri>
+            <con:assertion type="MessageContentAssertion" id="eee74681-58c4-4a5b-88cc-c1898b6a7335" name="Message Content Assertion">
+              <con:configuration xsi:type="con:MessageContentAssertion">
+                <con:elements>
+                  <con:xpath>//GeoIP[1]/GeoAddr[1]/Town[1]</con:xpath>
+                  <con:element>Town</con:element>
+                  <con:type xsi:nil="true"/>
+                  <con:operator>=</con:operator>
+                  <con:enabled>true</con:enabled>
+                  <con:expectedValue>Москва</con:expectedValue>
+                  <con:numberType>false</con:numberType>
+                </con:elements>
+                <con:elements>
+                  <con:xpath>//GeoIP[1]/GeoAddr[2]/Town[1]</con:xpath>
+                  <con:element>Town</con:element>
+                  <con:type xsi:nil="true"/>
+                  <con:operator>=</con:operator>
+                  <con:enabled>true</con:enabled>
+                  <con:expectedValue>Москва</con:expectedValue>
+                  <con:numberType>false</con:numberType>
+                </con:elements>
+                <con:elements>
+                  <con:xpath>//GeoIP[1]/GeoAddr[3]/Town[1]</con:xpath>
+                  <con:element>Town</con:element>
+                  <con:type xsi:nil="true"/>
+                  <con:operator>=</con:operator>
+                  <con:enabled>true</con:enabled>
+                  <con:expectedValue>Москва</con:expectedValue>
+                  <con:numberType>false</con:numberType>
+                </con:elements>
+                <con:originalMessage><![CDATA[<GeoIP>
+   <GeoAddr IP="80.253.23.220">
+      <Town>Москва</Town>
+      <Lon>37.617634</Lon>
+      <Lat>55.755787</Lat>
+   </GeoAddr>
+   <GeoAddr IP="80.253.23.237">
+      <Town>Москва</Town>
+      <Lat>55.755787</Lat>
+      <Lon>37.617634</Lon>
+   </GeoAddr>
+   <GeoAddr IP="80.253.23.236">
+      <Town>Москва</Town>
+      <Lon>37.617634</Lon>
+      <Lat>55.755787</Lat>
+   </GeoAddr>
+</GeoIP>]]></con:originalMessage>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters>
+              <con:entry key="ip" value="80.253.23.236, 80.253.23.000, 80.253.23.220"/>
+              <con:entry key="sid" value="1693QG8F"/>
+            </con:parameters>
+            <con:parameterOrder>
+              <con:entry>sid</con:entry>
+              <con:entry>ip</con:entry>
+            </con:parameterOrder>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="restrequest" name="d) Check the ‘Error’ ‘10’ and ‘205’ in the responses" id="ed7aa703-eaaf-4f9b-9e6d-98d6a4cba718">
+        <con:settings/>
+        <con:config service="https://geoip.top" resourcePath="/cgi-bin/getdata.pl" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="d) Check the ‘Error’ ‘10’ and ‘205’ in the responses" id="e624c26e-bba4-463c-b707-8eeadedc0569" mediaType="application/json">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+              <con:setting id="RecordRequestRepresentations">true</con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>http://geoip.elib.ru</con:endpoint>
+            <con:request/>
+            <con:originalUri>http://geoip.elib.ru/cgi-bin/getdata.pl/</con:originalUri>
+            <con:assertion type="Simple Contains" id="d93b152c-c2dc-4451-9b28-075c5a5a3487" name="Contains">
+              <con:configuration>
+                <token>&lt;Error>(10)|(205)&lt;/Error></token>
+                <ignoreCase>false</ignoreCase>
+                <useRegEx>true</useRegEx>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters>
+              <con:entry key="ip" value="83.72.119.0"/>
+              <con:entry key="sid" value="1693QG8F"/>
+            </con:parameters>
+            <con:parameterOrder>
+              <con:entry>sid</con:entry>
+              <con:entry>ip</con:entry>
+            </con:parameterOrder>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="restrequest" name="e) Check, that in the header  of response ‘Content-Encoding’  equals ‘gzip’" id="e230ee42-3c64-4081-a360-6bcf3e2fd215">
+        <con:settings/>
+        <con:config service="https://geoip.top" resourcePath="/cgi-bin/getdata.pl" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="e) Check, that in the header  of response ‘Content-Encoding’  equals ‘gzip’" id="e624c26e-bba4-463c-b707-8eeadedc0569" mediaType="application/json">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+              <con:setting id="RecordRequestRepresentations">true</con:setting>
+            </con:settings>
+            <con:encoding>UTF-8</con:encoding>
+            <con:endpoint>http://geoip.elib.ru</con:endpoint>
+            <con:request/>
+            <con:originalUri>http://geoip.elib.ru/cgi-bin/getdata.pl/</con:originalUri>
+            <con:assertion type="HTTP Header Equals" id="c30197b0-1bd9-43bb-9108-5774195e7850" name="HTTP Header Equals">
+              <con:configuration>
+                <Header>Content-Encoding</Header>
+                <Value>gzip</Value>
+                <ignoreCase>false</ignoreCase>
+                <useRegEx>false</useRegEx>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters>
+              <con:entry key="ip" value="80.72.118.10"/>
+              <con:entry key="sid" value="1693QG8F"/>
+            </con:parameters>
+            <con:parameterOrder>
+              <con:entry>sid</con:entry>
+              <con:entry>ip</con:entry>
+            </con:parameterOrder>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+      <con:reportParameters/>
+      <con:breakPoints>
+        <con:testStepId>53972efe-dc73-41b2-87f1-a19b040b6465</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+    </con:testCase>
+    <con:properties/>
+    <con:reportParameters/>
+  </con:testSuite>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:requirements/>
+  <con:properties/>
+  <con:wssContainer/>
+  <con:databaseConnectionContainer/>
+  <con:jmsConnectionContainer/>
+  <con:oAuth2ProfileContainer/>
+  <con:oAuth1ProfileContainer/>
+  <con:reporting>
+    <con:reportTemplates/>
+    <con:xmlTemplates/>
+    <con:xmlTemplates/>
+    <con:parameters/>
+    <con:parameters/>
+  </con:reporting>
+  <con:reporting/>
+  <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
+    <con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
+// This code is often used for adding custom authentication to SoapUI Pro tests
+
+// If hardcoding the token, uncomment and change line 5
+// def token = '4567'
+
+// If your token is parameterized in Project level custom property, uncomment line 8
+// def token = request.parent.testCase.testSuite.project.getProperty('auth_token').getValue()
+
+// To modify all outgoing calls, remove comments from lines 11 to 16
+// def headers = request.requestHeaders
+// if (headers.containsKey('auth_token2') == false) {
+//   headers.put('auth_token2', token)
+//   request.requestHeaders = headers
+// }</con:script>
+  </con:eventHandlers>
+  <con:eventHandlers type="TestRunListener.afterStep" name="TestRunListener.afterStep">
+    <con:script>// Save all test step results into files
+// Change the directory path in line 5 to a location where you want to store details
+// then uncomment lines 5 to 10
+
+// filePath = 'C:\\tempOutputDirectory\\'
+// fos = new FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
+// pw = new PrintWriter(fos)
+// testStepResult.writeTo(pw)
+// pw.close()
+// fos.close()</con:script>
+  </con:eventHandlers>
+  <con:authRepository/>
+  <con:tags/>
+</con:soapui-project>

@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part2_(Patterns)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|c:\\users\\isaru\\source\\repos\\test automation (.net) (2017)\\module_4_webdriver_part2_(patterns)\\generationcheck\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|solutionrelative:generationcheck\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|c:\\users\\isaru\\source\\repos\\test automation (.net) (2017)\\module_4_webdriver_part2_(patterns)\\generationcheck\\tests\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|solutionrelative:generationcheck\\tests\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|c:\\users\\isaru\\source\\repos\\test automation (.net) (2017)\\module_4_webdriver_part2_(patterns)\\generationcheck\\tests\\pageobjecttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|solutionrelative:generationcheck\\tests\\pageobjecttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|c:\\users\\isaru\\source\\repos\\test automation (.net) (2017)\\module_4_webdriver_part2_(patterns)\\generationcheck\\tests\\pagefactorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|solutionrelative:generationcheck\\tests\\pagefactorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|c:\\users\\isaru\\source\\repos\\test automation (.net) (2017)\\module_4_webdriver_part2_(patterns)\\generationcheck\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{124AB43E-74FA-4E9D-9476-F26A09240BF2}|GenerationCheck\\GenerationCheck.csproj|solutionrelative:generationcheck\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part2_(Patterns)\\GenerationCheck\\Program.cs",
+              "RelativeDocumentMoniker": "GenerationCheck\\Program.cs",
+              "ToolTip": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part2_(Patterns)\\GenerationCheck\\Program.cs",
+              "RelativeToolTip": "GenerationCheck\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:45:18.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part2_(Patterns)\\GenerationCheck\\tests\\Test.cs",
+              "RelativeDocumentMoniker": "GenerationCheck\\tests\\Test.cs",
+              "ToolTip": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part2_(Patterns)\\GenerationCheck\\tests\\Test.cs",
+              "RelativeToolTip": "GenerationCheck\\tests\\Test.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:44:25.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageObjectTest.cs",
+              "DocumentMoniker": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part2_(Patterns)\\GenerationCheck\\tests\\PageObjectTest.cs",
+              "RelativeDocumentMoniker": "GenerationCheck\\tests\\PageObjectTest.cs",
+              "ToolTip": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part2_(Patterns)\\GenerationCheck\\tests\\PageObjectTest.cs",
+              "RelativeToolTip": "GenerationCheck\\tests\\PageObjectTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:44:12.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageFactoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part2_(Patterns)\\GenerationCheck\\tests\\PageFactoryTest.cs",
+              "RelativeDocumentMoniker": "GenerationCheck\\tests\\PageFactoryTest.cs",
+              "ToolTip": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part2_(Patterns)\\GenerationCheck\\tests\\PageFactoryTest.cs",
+              "RelativeToolTip": "GenerationCheck\\tests\\PageFactoryTest.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:43:50.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part2_(Patterns)\\GenerationCheck\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "GenerationCheck\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\IsaRu\\source\\repos\\Test Automation (.NET) (2017)\\Module_4_WebDriver_part2_(Patterns)\\GenerationCheck\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "GenerationCheck\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:41:56.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

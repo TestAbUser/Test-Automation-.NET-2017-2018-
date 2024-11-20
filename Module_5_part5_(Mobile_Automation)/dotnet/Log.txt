@@ -1,0 +1,5 @@
+2018-07-04 09:50:44:315 - info: [Appium] Welcome to Appium v1.7.1
+2018-07-04 09:50:44:317 - info: [Appium] Non-default server args:
+2018-07-04 09:50:44:318 - info: [Appium]   address: 127.0.0.1
+2018-07-04 09:50:44:318 - info: [Appium]   log: D:\Local_Git_Repository\automation-net\Module_5_part5_(Mobile_Automation)\sample-code-master\sample-code-master\sample-code\examples\dotnet\Log.txt
+2018-07-04 09:50:44:357 - error: [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
